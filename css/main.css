@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	background: #F1F1F1;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+	li a:hover:not(.active) {
+		background: #999;
+		color: #FFF;
+	}
+
+.active {
+	background: #00AAFF;
+	color: #FFF;
+}
